@@ -1,0 +1,10 @@
+# binaries without extensions
+*
+!*.*
+!*/
+
+!LICENSE
+
+# build artifacts
+**/*.o
+**/*.hi
