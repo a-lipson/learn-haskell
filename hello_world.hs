@@ -1,6 +1,9 @@
 import qualified Control.Monad
 import           Data.Char
 
+sayHello (Just name) = "Hello " <> show name
+sayHello Nothing     = "Hello world"
+
 hw :: IO ()
 hw = putStrLn "Hello World"
 
